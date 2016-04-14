@@ -31,7 +31,6 @@ name you chose for your problem at the problem INCLUDE file line: 45). 'PS.dat' 
  events in the simulation time including timing of different parts of the
  code (helpful for debugging) and intermediate solutions 'progress.dat'
  that includes the archive contents as the generations evolve.
-
 Please feel free to contact me if you have any questions.
 	Yousef Naranjani
 	yo.na1118@gmail.com
