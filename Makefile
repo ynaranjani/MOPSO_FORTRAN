@@ -28,19 +28,7 @@ rouletteWheel.o: rouletteWheel.f90
 	$(FC)  -c $(FLAG) rouletteWheel.f90	
 mutation.o: mutation.f90
 	$(FC)  -c $(FLAG) mutation.f90	
-	
-%.o: %.f90
-	$(f90comp) -c $(switch) $<
-
-#.cpp.o:
-#g++ -c -fopenmp $<
-
-
-
 
 clean:
 	rm *.o *.mod
 	$(RM) $(TARGET)
-
-
-
